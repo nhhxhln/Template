@@ -1,0 +1,18 @@
+[submodule "third_party/libassert"]
+	path = third_party/libassert
+	url = https://github.com/jeremy-rifkin/libassert.git
+[submodule "third_party/argparse"]
+	path = third_party/argparse
+	url = https://github.com/p-ranav/argparse.git
+[submodule "third_party/magic_enum"]
+	path = third_party/magic_enum
+	url = https://github.com/Neargye/magic_enum.git
+[submodule "third_party/cpptrace"]
+	path = third_party/cpptrace
+	url = https://github.com/jeremy-rifkin/cpptrace.git
+[submodule "third_party/libdwarf-lite"]
+	path = third_party/libdwarf-lite
+	url = https://github.com/jeremy-rifkin/libdwarf-lite.git
+[submodule "third_party/spdlog"]
+	path = third_party/spdlog
+	url = https://github.com/gabime/spdlog.git
