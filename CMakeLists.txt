@@ -18,6 +18,14 @@ set(LIBASSERT_USE_EXTERNAL_MAGIC_ENUM ON)
 set(CPPTRACE_USE_EXTERNAL_LIBDWARF ON)
 set(CPPTRACE_GET_SYMBOLS_WITH_LIBDWARF ON)
 
+# System dependencies installed via apt:
+#   sudo apt install libavutil-dev libavcodec-dev libavformat-dev \
+#                    libswscale-dev libsdl2-dev pkg-config
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(FFmpeg REQUIRED IMPORTED_TARGET
+  libavutil libavcodec libavformat libswscale)
+find_package(SDL2 REQUIRED)
+
 include_directories(third_party/yuv/include)
 include_directories(third_party/spdlog/include)
 include_directories(third_party/argparse/include)
@@ -26,6 +34,7 @@ include_directories(third_party/libassert/include)
 include_directories(third_party/magic_enum/include)
 include_directories(third_party/libdwarf-lite/include)
 
+add_subdirectory(third_party/yuv)
 add_subdirectory(third_party/spdlog)
 add_subdirectory(third_party/libdwarf-lite)
 add_subdirectory(third_party/cpptrace)
@@ -33,7 +42,12 @@ add_subdirectory(third_party/libassert)
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_precompile_headers(${PROJECT_NAME} PRIVATE pch.hpp)
-target_link_libraries(${PROJECT_NAME} spdlog::spdlog libassert::assert ${FFmpeg_LIBS})
+target_link_libraries(${PROJECT_NAME}
+  spdlog::spdlog
+  libassert::assert
+  yuv
+  SDL2::SDL2
+  PkgConfig::FFmpeg)
 
 # Use env `CMAKE_PRINT_ENV` to print all variables
 if(DEFINED ENV{CMAKE_PRINT_ENV})
