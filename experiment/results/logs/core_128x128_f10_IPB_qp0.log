@@ -1,0 +1,43 @@
+[rawvideo @ 0x55cc1a123fc0] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from '/tmp/exp_core/in.yuv':
+  Duration: 00:00:00.40, start: 0.000000, bitrate: 4915 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 128x128, 4915 kb/s, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.5+1-f0c1022b6
+x265 [info]: build info [Linux][GCC 13.2.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [info]: Main profile, Level-1 (Main tier)
+x265 [warning]: Too few rows/columns, --wpp disabled
+x265 [info]: Thread pool created using 4 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / none
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: Rate Control                        : CQP-0
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: b-intra strong-intra-smoothing deblock sao
+Output #0, hevc, to '/tmp/exp_core/out.hevc':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: hevc, yuv420p(progressive), 128x128, q=2-31, 25 fps, 25 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    
+[out#0/hevc @ 0x55cc1a133d00] video:360kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+frame=   10 fps=0.0 q=0.0 Lsize=     360kB time=00:00:00.28 bitrate=10527.4kbits/s speed= 1.8x    
+x265 [info]: frame I:      1, Avg QP:0.00  kb/s: 7299.80 
+x265 [info]: frame P:      2, Avg QP:0.00  kb/s: 7329.00 
+x265 [info]: frame B:      7, Avg QP:0.00  kb/s: 7325.26 
+x265 [info]: Weighted P-Frames: Y:50.0% UV:50.0%
+x265 [info]: consecutive B-frames: 33.3% 0.0% 0.0% 33.3% 33.3% 
+
+encoded 10 frames in 0.14s (71.03 fps), 7323.46 kb/s, Avg QP:0.00

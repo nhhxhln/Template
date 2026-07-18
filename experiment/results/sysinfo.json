@@ -1,0 +1,24 @@
+{
+ "platform": "Linux-6.17.0-1018-azure-x86_64-with-glibc2.39",
+ "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+ "cpu_count": 4,
+ "ffmpeg": [
+  "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)",
+  "configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared"
+ ],
+ "x265_cli": [
+  "x265 [info]: HEVC encoder version 3.5+1-f0c1022b6",
+  "x265 [info]: build info [Linux][GCC 13.2.0][64 bit] 8bit+10bit+12bit"
+ ],
+ "date": "2026-07-18 21:00:33 UTC",
+ "lscpu": [
+  "Architecture:                            x86_64",
+  "CPU(s):                                  4",
+  "Model name:                              Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "CPU(s) scaling MHz:                      125%",
+  "CPU max MHz:                             2800.0000",
+  "CPU min MHz:                             800.0000",
+  "NUMA node0 CPU(s):                       0-3"
+ ]
+}

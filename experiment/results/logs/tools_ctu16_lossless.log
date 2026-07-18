@@ -1,0 +1,44 @@
+[rawvideo @ 0x5613b5b59000] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from '/tmp/exp_tools/in.yuv':
+  Duration: 00:00:00.40, start: 0.000000, bitrate: 19660 kb/s
+  Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 256x256, 19660 kb/s, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.5+1-f0c1022b6
+x265 [info]: build info [Linux][GCC 13.2.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast LZCNT SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x265 [warning]: Max TU size should be less than or equal to max CU size, setting max TU size = 16
+x265 [info]: Main profile, Level-8.5 (Main tier)
+x265 [info]: Thread pool created using 4 threads
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 1 / wpp(16 rows)
+x265 [warning]: Source height < 720p; disabling lookahead-slices
+x265 [info]: Coding QT: max CU size, min CU size : 16 / 8
+x265 [info]: Residual QT: max TU size, max depth : 16 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: Rate Control                        : Lossless
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip mode=1 signhide tmvp
+x265 [info]: tools: b-intra strong-intra-smoothing deblock sao
+Output #0, hevc, to '/tmp/exp_tools/out.hevc':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: hevc, yuv420p(progressive), 256x256, q=2-31, 25 fps, 25 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    
+[out#0/hevc @ 0x5613b5b7ad80] video:1282kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+frame=   10 fps=0.0 q=4.0 Lsize=    1282kB time=00:00:00.28 bitrate=37513.5kbits/s speed= 1.1x    
+x265 [info]: frame I:      1, Avg QP:4.00  kb/s: 26127.40
+x265 [info]: frame P:      2, Avg QP:4.00  kb/s: 26242.60
+x265 [info]: frame B:      7, Avg QP:4.00  kb/s: 26217.23
+x265 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x265 [info]: consecutive B-frames: 33.3% 0.0% 0.0% 33.3% 33.3% 
+x265 [info]: lossless compression ratio 0.50::1
+
+encoded 10 frames in 0.25s (39.62 fps), 26213.32 kb/s, Avg QP:4.00

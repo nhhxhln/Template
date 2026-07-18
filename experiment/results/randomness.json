@@ -1,0 +1,282 @@
+{
+ "mt19937_seed1": {
+  "gen": {
+   "file": "/tmp/exp_work/rand.yuv",
+   "source": "mt19937",
+   "seed": 1,
+   "width": 256,
+   "height": 256,
+   "frames": 10,
+   "format": "yuv420p",
+   "bytes": 983040,
+   "fnv1a64": "79a19d7461316ee9",
+   "sha256": "fa0c2b4c5e21297880c8465303a5ccb6d22e52445917e03227dedfcf79d5dd71"
+  },
+  "stats": {
+   "all": {
+    "entropy_bits": 7.999819,
+    "chi2": 245.89,
+    "mean": 127.5648,
+    "adj_corr": -0.0006446019,
+    "dup16_ratio": 0.0,
+    "min_count": 3649,
+    "max_count": 4001
+   },
+   "Y": {
+    "entropy_bits": 7.999745,
+    "chi2": 231.43,
+    "mean": 127.529,
+    "adj_corr": 0.0006720891,
+    "dup16_ratio": 0.0,
+    "min_count": 2413,
+    "max_count": 2685
+   },
+   "U": {
+    "entropy_bits": 7.99891,
+    "chi2": 247.49,
+    "mean": 127.7876,
+    "adj_corr": -0.00354042,
+    "dup16_ratio": 0.0,
+    "min_count": 572,
+    "max_count": 707
+   },
+   "V": {
+    "entropy_bits": 7.998747,
+    "chi2": 284.89,
+    "mean": 127.485,
+    "adj_corr": -0.003077873,
+    "dup16_ratio": 0.0,
+    "min_count": 578,
+    "max_count": 725
+   },
+   "uv_corr": 0.00138691,
+   "yu_corr": 0.001562954,
+   "identical_adjacent_frames": 0,
+   "fnv1a64": "79a19d7461316ee9"
+  }
+ },
+ "mt19937_seed2": {
+  "gen": {
+   "file": "/tmp/exp_work/rand.yuv",
+   "source": "mt19937",
+   "seed": 2,
+   "width": 256,
+   "height": 256,
+   "frames": 10,
+   "format": "yuv420p",
+   "bytes": 983040,
+   "fnv1a64": "18e773fb6a8e5d7e",
+   "sha256": "54f55aab0a380446469e567fc153134862a5c321b7bbd61c590a03846c275c6d"
+  },
+  "stats": {
+   "all": {
+    "entropy_bits": 7.999814,
+    "chi2": 253.51,
+    "mean": 127.5441,
+    "adj_corr": -0.001123746,
+    "dup16_ratio": 0.0,
+    "min_count": 3608,
+    "max_count": 4000
+   },
+   "Y": {
+    "entropy_bits": 7.999756,
+    "chi2": 221.62,
+    "mean": 127.5334,
+    "adj_corr": -0.001359925,
+    "dup16_ratio": 0.0,
+    "min_count": 2419,
+    "max_count": 2698
+   },
+   "U": {
+    "entropy_bits": 7.998823,
+    "chi2": 267.89,
+    "mean": 127.4894,
+    "adj_corr": 0.0001929469,
+    "dup16_ratio": 0.0,
+    "min_count": 584,
+    "max_count": 710
+   },
+   "V": {
+    "entropy_bits": 7.99892,
+    "chi2": 245.33,
+    "mean": 127.6416,
+    "adj_corr": -0.001492823,
+    "dup16_ratio": 0.0,
+    "min_count": 575,
+    "max_count": 707
+   },
+   "uv_corr": -0.0003666252,
+   "yu_corr": 0.002143992,
+   "identical_adjacent_frames": 0,
+   "fnv1a64": "18e773fb6a8e5d7e"
+  }
+ },
+ "mt19937_seed3": {
+  "gen": {
+   "file": "/tmp/exp_work/rand.yuv",
+   "source": "mt19937",
+   "seed": 3,
+   "width": 256,
+   "height": 256,
+   "frames": 10,
+   "format": "yuv420p",
+   "bytes": 983040,
+   "fnv1a64": "1855d731dd26efda",
+   "sha256": "c8933373bf76491b202c45c0a7e7443eac1b8e1557bdd3ad7d11e050aacdceee"
+  },
+  "stats": {
+   "all": {
+    "entropy_bits": 7.999829,
+    "chi2": 233.21,
+    "mean": 127.4066,
+    "adj_corr": -0.001004236,
+    "dup16_ratio": 0.0,
+    "min_count": 3678,
+    "max_count": 4017
+   },
+   "Y": {
+    "entropy_bits": 7.999722,
+    "chi2": 252.95,
+    "mean": 127.3678,
+    "adj_corr": -0.001682938,
+    "dup16_ratio": 0.0,
+    "min_count": 2413,
+    "max_count": 2687
+   },
+   "U": {
+    "entropy_bits": 7.999014,
+    "chi2": 224.08,
+    "mean": 128.0227,
+    "adj_corr": 0.002085625,
+    "dup16_ratio": 0.0,
+    "min_count": 573,
+    "max_count": 720
+   },
+   "V": {
+    "entropy_bits": 7.998971,
+    "chi2": 233.83,
+    "mean": 126.9456,
+    "adj_corr": -0.001515265,
+    "dup16_ratio": 0.0,
+    "min_count": 569,
+    "max_count": 736
+   },
+   "uv_corr": 0.00107607,
+   "yu_corr": -0.002393901,
+   "identical_adjacent_frames": 0,
+   "fnv1a64": "1855d731dd26efda"
+  }
+ },
+ "urandom_seed0": {
+  "gen": {
+   "file": "/tmp/exp_work/rand.yuv",
+   "source": "urandom",
+   "seed": 0,
+   "width": 256,
+   "height": 256,
+   "frames": 10,
+   "format": "yuv420p",
+   "bytes": 983040,
+   "fnv1a64": "f4d8d2f11bdbd810",
+   "sha256": "e506f639f998b81f5f7f38668d724253492e95e40d2e0cbe37f5e4f2413f5c48"
+  },
+  "stats": {
+   "all": {
+    "entropy_bits": 7.999791,
+    "chi2": 284.79,
+    "mean": 127.4337,
+    "adj_corr": -0.0005183487,
+    "dup16_ratio": 0.0,
+    "min_count": 3685,
+    "max_count": 4007
+   },
+   "Y": {
+    "entropy_bits": 7.999655,
+    "chi2": 313.88,
+    "mean": 127.4212,
+    "adj_corr": -0.0005940294,
+    "dup16_ratio": 0.0,
+    "min_count": 2437,
+    "max_count": 2731
+   },
+   "U": {
+    "entropy_bits": 7.998776,
+    "chi2": 277.88,
+    "mean": 127.6935,
+    "adj_corr": -0.0009637625,
+    "dup16_ratio": 0.0,
+    "min_count": 563,
+    "max_count": 725
+   },
+   "V": {
+    "entropy_bits": 7.998821,
+    "chi2": 267.54,
+    "mean": 127.224,
+    "adj_corr": 0.0001320094,
+    "dup16_ratio": 0.0,
+    "min_count": 559,
+    "max_count": 714
+   },
+   "uv_corr": 0.0002586213,
+   "yu_corr": -0.004593717,
+   "identical_adjacent_frames": 0,
+   "fnv1a64": "f4d8d2f11bdbd810"
+  }
+ },
+ "random_seed0": {
+  "gen": {
+   "file": "/tmp/exp_work/rand.yuv",
+   "source": "random",
+   "seed": 0,
+   "width": 256,
+   "height": 256,
+   "frames": 10,
+   "format": "yuv420p",
+   "bytes": 983040,
+   "fnv1a64": "79d2076eb1bde9f8",
+   "sha256": "e1de7f1688eb079a55442ae595554823aea6b728b05b90332df990cc1d45706e"
+  },
+  "stats": {
+   "all": {
+    "entropy_bits": 7.999814,
+    "chi2": 253.95,
+    "mean": 127.4387,
+    "adj_corr": 0.0001746489,
+    "dup16_ratio": 0.0,
+    "min_count": 3647,
+    "max_count": 4040
+   },
+   "Y": {
+    "entropy_bits": 7.999729,
+    "chi2": 246.14,
+    "mean": 127.37,
+    "adj_corr": -0.0006018424,
+    "dup16_ratio": 0.0,
+    "min_count": 2433,
+    "max_count": 2693
+   },
+   "U": {
+    "entropy_bits": 7.998913,
+    "chi2": 246.8,
+    "mean": 127.3648,
+    "adj_corr": 0.001963671,
+    "dup16_ratio": 0.0,
+    "min_count": 572,
+    "max_count": 706
+   },
+   "V": {
+    "entropy_bits": 7.998735,
+    "chi2": 288.23,
+    "mean": 127.7873,
+    "adj_corr": 0.001405381,
+    "dup16_ratio": 0.0,
+    "min_count": 577,
+    "max_count": 713
+   },
+   "uv_corr": 0.001789019,
+   "yu_corr": -0.004812343,
+   "identical_adjacent_frames": 0,
+   "fnv1a64": "79d2076eb1bde9f8"
+  }
+ }
+}
