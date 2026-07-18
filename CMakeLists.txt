@@ -49,6 +49,16 @@ target_link_libraries(${PROJECT_NAME}
   SDL2::SDL2
   PkgConfig::FFmpeg)
 
+add_executable(yuvtool experiment/yuvtool.cpp)
+target_include_directories(yuvtool PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_precompile_headers(yuvtool PRIVATE pch.hpp)
+target_link_libraries(yuvtool
+  spdlog::spdlog
+  libassert::assert
+  yuv
+  SDL2::SDL2
+  PkgConfig::FFmpeg)
+
 # Use env `CMAKE_PRINT_ENV` to print all variables
 if(DEFINED ENV{CMAKE_PRINT_ENV})
   message(STATUS "Dump all CMake variables:")
