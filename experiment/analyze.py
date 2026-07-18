@@ -171,7 +171,7 @@ def analyze_core():
     fig, ax = plt.subplots(figsize=(9, 5.5))
     configs = sorted(crit["config"].unique())
     data = [crit[crit["config"] == c]["critical_qp"].dropna() for c in configs]
-    ax.boxplot(data, labels=configs, showmeans=True)
+    ax.boxplot(data, tick_labels=configs, showmeans=True)
     ax.set_ylabel("critical QP (ratio = 1.0)")
     ax.set_title("Per-sample 1:1 critical QP distribution")
     plt.setp(ax.get_xticklabels(), rotation=20, ha="right", fontsize=7)

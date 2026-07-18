@@ -1,0 +1,442 @@
+{
+ "core_128x128_f10_IPB_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  4 ) [DT  0.002] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.033 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 245760
+ },
+ "core_128x128_f10_IPB_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  0 ) [DT  0.003] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.041 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 245760
+ },
+ "core_128x128_f10_IPB_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 18 ) [DT  0.002] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.029 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 245760
+ },
+ "core_128x128_f10_IPB_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 34 ) [DT  0.002] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.023 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 245760
+ },
+ "core_128x128_f10_IPB_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 51 ) [DT  0.000] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.007 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 245760
+ },
+ "core_256x256_f10_IPB_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  4 ) [DT  0.009] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.125 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IPB_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  0 ) [DT  0.012] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.156 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IPB_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 18 ) [DT  0.009] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.109 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IPB_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 34 ) [DT  0.007] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.087 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IPB_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 51 ) [DT  0.001] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.018 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IP_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    9 TId: 0 ( P-SLICE, QP  4 ) [DT  0.009] [L0 8 7 6 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.119 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IP_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    9 TId: 0 ( P-SLICE, QP  0 ) [DT  0.012] [L0 8 7 6 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.150 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IP_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    9 TId: 0 ( P-SLICE, QP 16 ) [DT  0.008] [L0 8 7 6 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.107 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IP_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    9 TId: 0 ( P-SLICE, QP 32 ) [DT  0.006] [L0 8 7 6 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.081 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_IP_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    9 TId: 0 ( P-SLICE, QP 51 ) [DT  0.000] [L0 8 7 6 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.017 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_all-I_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP  4 ) [DT  0.012] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.134 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_all-I_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP  0 ) [DT  0.013] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.161 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_all-I_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP 13 ) [DT  0.011] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.136 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_all-I_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP 29 ) [DT  0.007] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.079 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f10_all-I_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP 48 ) [DT  0.004] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.044 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 983040
+ },
+ "core_256x256_f1_all-I_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP  4 ) [DT  0.012] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.014 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 98304
+ },
+ "core_256x256_f1_all-I_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP  0 ) [DT  0.013] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.016 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 98304
+ },
+ "core_256x256_f1_all-I_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP 13 ) [DT  0.012] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.014 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 98304
+ },
+ "core_256x256_f1_all-I_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP 29 ) [DT  0.007] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.009 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 98304
+ },
+ "core_256x256_f1_all-I_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    0 TId: 0 ( I-SLICE, QP 48 ) [DT  0.004] [L0 ] [L1 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.005 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 98304
+ },
+ "core_256x256_f30_IPB_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC   28 TId: 0 ( B-SLICE, QP  4 ) [DT  0.009] [L0 27 24 22 ] [L1 29 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.355 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 2949120
+ },
+ "core_256x256_f30_IPB_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC   28 TId: 0 ( B-SLICE, QP  0 ) [DT  0.012] [L0 27 24 22 ] [L1 29 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.454 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 2949120
+ },
+ "core_256x256_f30_IPB_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC   28 TId: 0 ( B-SLICE, QP 18 ) [DT  0.008] [L0 27 24 22 ] [L1 29 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.316 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 2949120
+ },
+ "core_256x256_f30_IPB_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC   28 TId: 0 ( B-SLICE, QP 34 ) [DT  0.008] [L0 27 24 22 ] [L1 29 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.260 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 2949120
+ },
+ "core_256x256_f30_IPB_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC   28 TId: 0 ( B-SLICE, QP 51 ) [DT  0.000] [L0 27 24 22 ] [L1 29 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.037 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 2949120
+ },
+ "core_640x360_f10_IPB_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  4 ) [DT  0.033] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.431 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 3456000
+ },
+ "core_640x360_f10_IPB_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  0 ) [DT  0.044] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.533 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 3456000
+ },
+ "core_640x360_f10_IPB_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 18 ) [DT  0.033] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.394 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 3456000
+ },
+ "core_640x360_f10_IPB_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 34 ) [DT  0.031] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.318 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 3456000
+ },
+ "core_640x360_f10_IPB_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 51 ) [DT  0.002] [L0 7 4 2 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.054 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 3456000
+ },
+ "core_64x64_f10_IPB_lossless.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  4 ) [DT  0.001] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.010 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 61440
+ },
+ "core_64x64_f10_IPB_qp0.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP  0 ) [DT  0.001] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.012 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 61440
+ },
+ "core_64x64_f10_IPB_qp16.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 18 ) [DT  0.001] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.009 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 61440
+ },
+ "core_64x64_f10_IPB_qp32.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 34 ) [DT  0.001] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.008 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 61440
+ },
+ "core_64x64_f10_IPB_qp51.hevc": {
+  "hm_exit": 0,
+  "hm_tail": [
+   "POC    8 TId: 0 ( B-SLICE, QP 51 ) [DT  0.000] [L0 7 5 3 ] [L1 9 ] [:,(unk)] ",
+   "",
+   " Total Time:        0.003 sec."
+  ],
+  "hm_stderr_tail": [],
+  "hm_matches_ffmpeg_decode": true,
+  "hm_rec_bytes": 61440
+ }
+}

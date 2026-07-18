@@ -1,0 +1,5 @@
+# Bitstreams are large; only the 64x64 set (demonstrating the x265 single-CTU
+# lossless bug) is committed. SHA-256 of all 40 verified streams is in
+# ../stream_sha256.txt; they can be regenerated with run_experiments.py.
+*.hevc
+!core_64x64_f10_IPB_*.hevc
